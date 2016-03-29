@@ -10,9 +10,9 @@ public class Jurnal1 {
 		int n= a.nextInt();
                 int hasil=0;
 		for(int i=1;i<=n;i++){
-                   hasil=hasil+jun(i);
+                   System.out.println(jun(i)+"");
                 }	
-		System.out.println(hasil);
+		System.out.println();
         }
 	private static int jun(int n){
 		int f;
